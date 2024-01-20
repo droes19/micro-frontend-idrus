@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "mfe-angular/Routes": [
+        "apps/mfe-angular/src/app/remote-entry/entry.routes.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -17,7 +17,8 @@
     "paths": {
       "mfe-angular/Routes": [
         "apps/mfe-angular/src/app/remote-entry/entry.routes.ts"
-      ]
+      ],
+      "mfe-react/Module": ["apps/mfe-react/src/remote-entry.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
